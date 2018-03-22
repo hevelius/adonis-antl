@@ -112,7 +112,7 @@ class Antl {
    *
    * @return {Mixed}
    */
-  get (key, defaultValue = null) {
+  get (key, defaultValue = key) {
     const [group, ...parts] = key.split('.')
     const messageKey = parts.join('.')
 
