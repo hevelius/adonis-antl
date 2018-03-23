@@ -1,9 +1,10 @@
 {
-  "name": "@adonisjs/antl",
-  "version": "2.0.5",
+  "name": "adonis-antl-improving",
+  "version": "2.0.6",
   "description": "Localization for adonisjs app",
   "main": "index.js",
   "directories": {
+    "example": "examples",
     "test": "test"
   },
   "scripts": {
@@ -60,5 +61,16 @@
     "intl-relativeformat": "^2.1.0",
     "lodash": "^4.17.5",
     "require-all": "^2.2.0"
-  }
+  },
+  "bin": {
+    "adonis-antl-improving": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hevelius/adonis-antl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hevelius/adonis-antl/issues"
+  },
+  "homepage": "https://github.com/hevelius/adonis-antl#readme"
 }
